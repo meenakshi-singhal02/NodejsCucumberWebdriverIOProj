@@ -30,7 +30,10 @@ exports.config = {
     capabilities: [
 
           {
-              browserName: 'chrome',
+              browserName: 'firefox',
+              chromeOptions: {
+                useAutomationExtension: false
+              },
               // platform: 'Windows 10',
               // version: '50.0',
               maxInstances: '5',

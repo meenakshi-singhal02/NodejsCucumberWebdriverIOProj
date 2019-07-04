@@ -1,0 +1,1 @@
+{"start":"2019-07-03T19:09:17.770Z","end":"2019-07-03T19:10:12.461Z","capabilities":{"browserName":"chrome","chromeOptions":{"useAutomationExtension":false},"maxInstances":"5"},"host":"127.0.0.1","port":4444,"baseUrl":"http://localhost:8080","framework":"cucumber","mochaOpts":{"timeout":10000},"suites":[]}

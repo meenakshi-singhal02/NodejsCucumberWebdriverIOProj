@@ -1,0 +1,9 @@
+{
+    "message": "Failed to decode response from marionette\nBuild info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'\nSystem info: host: 'LAPTOP-JSR19VR7', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "Failed to decode response from marionette\nBuild info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'\nSystem info: host: 'LAPTOP-JSR19VR7', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown"
+    }
+}

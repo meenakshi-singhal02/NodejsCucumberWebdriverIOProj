@@ -6,7 +6,7 @@ module.exports = function(grunt) {
             test: {
                 configFile: './test/config/suite.cucumber.conf.js'
             },
-            test-mobile: {
+            testmobile: {
                 configFile: './test/config/suite.appium.conf.js'
             },
         },
@@ -15,5 +15,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-cucumberjs');
     grunt.loadNpmTasks('grunt-webdriver');
     grunt.registerTask('default', ['webdriver:test']);
-    //grunt.registerTask('default', ['webdriver:test-mobile']);
+    //grunt.registerTask('default', ['webdriver:testmobile']);
 };

@@ -1,0 +1,9 @@
+{
+    "message": "Tried to run command without establishing a connection\nBuild info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'\nSystem info: host: 'LAPTOP-JSR19VR7', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "NoSuchDriver",
+        "message": "A session is either terminated or not started",
+        "orgStatusMessage": "Tried to run command without establishing a connection\nBuild info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'\nSystem info: host: 'LAPTOP-JSR19VR7', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown"
+    }
+}

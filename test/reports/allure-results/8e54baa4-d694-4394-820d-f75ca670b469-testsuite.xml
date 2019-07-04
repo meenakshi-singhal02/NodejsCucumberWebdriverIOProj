@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1562175900607' stop='1562175901795'>
+    <name>Performing a Yahoo Search Performing a search operation with passing test data as data table</name>
+    <title>Performing a Yahoo Search Performing a search operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1562175900607' status='failed' stop='1562175901786'>
+            <name>I am on the search page</name>
+            <title>I am on the search page</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"firefox","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\NodeJsWorkspace\\webdriverIO-with-cucumberBDD\\test\\features\\yahoo-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1562175900607' status='passed' stop='1562175900761'>
+                    <name>POST /wd/hub/session/51c1a2d0-742a-45ca-ae97-d7bee23c55fc/url</name>
+                    <title>POST /wd/hub/session/51c1a2d0-742a-45ca-ae97-d7bee23c55fc/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4ab465ce-54bf-4a8d-aed3-b871c59414c8-attachment.json' type='application/json' size='42'/>
+                        <attachment title='Response' source='5f3b3325-5c5e-4ac5-8d7c-0b09128773e7-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1562175901775' status='passed' stop='1562175901783'>
+                    <name>GET /wd/hub/session/51c1a2d0-742a-45ca-ae97-d7bee23c55fc/title</name>
+                    <title>GET /wd/hub/session/51c1a2d0-742a-45ca-ae97-d7bee23c55fc/title</title>
+                    <attachments>
+                        <attachment title='Response' source='0669f353-26b6-4157-a391-3672ec4ae232-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'</message>
+                <stack-trace>AssertionError: expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'
+                    at World.&lt;anonymous> (D:/NodeJsWorkspace/webdriverIO-with-cucumberBDD/test/stepDefinitions/given.js:11:31)
+                    at D:\NodeJsWorkspace\webdriverIO-with-cucumberBDD\node_modules\wdio-sync\build\index.js:594:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (D:\NodeJsWorkspace\webdriverIO-with-cucumberBDD\node_modules\core-js\library\modules\_export.js:36:28)
+                    at World.executeSync (D:\NodeJsWorkspace\webdriverIO-with-cucumberBDD\node_modules\wdio-sync\build\index.js:592:12)
+                    at D:\NodeJsWorkspace\webdriverIO-with-cucumberBDD\node_modules\wdio-sync\build\index.js:214:29</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1562175901788' status='pending' stop='1562175901789'>
+            <name>I enter "Selenium Webdriver" into the search box</name>
+            <title>I enter "Selenium Webdriver" into the search box</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"firefox","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\NodeJsWorkspace\\webdriverIO-with-cucumberBDD\\test\\features\\yahoo-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1562175901791' status='pending' stop='1562175901791'>
+            <name>I click the search button</name>
+            <title>I click the search button</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"firefox","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\NodeJsWorkspace\\webdriverIO-with-cucumberBDD\\test\\features\\yahoo-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1562175901792' status='pending' stop='1562175901793'>
+            <name>I should see a list of search results</name>
+            <title>I should see a list of search results</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"firefox","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\NodeJsWorkspace\\webdriverIO-with-cucumberBDD\\test\\features\\yahoo-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
